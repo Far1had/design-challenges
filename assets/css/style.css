@@ -19,11 +19,7 @@
     list-style: none;
     font-family: Roboto_Regular;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 header {
     display: flex;
     flex-direction: column;
@@ -37,52 +33,90 @@ header {
     height: 35px;
     width: 35px;
     position: fixed;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 .logo h4 {
+    font-family: Roboto_Bold;
     font-weight: bold;
     font-size: 1.1rem;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-left: 10%;
 }
 .logo h6 {
     font-weight: bolder;
     font-size: 0.6rem;
     margin-top: 0.2%;
-    margin-left: 6.6%;
+    margin-left: 9.9%;
 }
 
 .bild1 {
-    width: 50%;
+    width: 35%;
     z-index: 1;
     position: absolute;
     top: 0;
     right: 0;
 }
 .bild2 {
-    width: 44%;
+    width: 30%;
     z-index: 2;
     top: 0;
     right: 0;
     position: absolute;
     margin-right: 3%;
-    
+    animation-duration: 5s;
+    animation-timing-function: ;
+    animation-iteration-count: infinite;
 }
-
+.bild2 {
+    animation-name: move;
+}
+@keyframes move {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translateY(25%);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
 .lila {
     position: absolute;
     width: 100%;
-    margin-top: -1%;
 }
 
 .text {
-    margin: 15%;
-    margin-left: 10%;
-    width: 29%;
+    margin: 12%;
+    margin-left: 16%;
+    width: 39%;
+    font-family: Roboto_Bold;
+}
+.text h1 {
+    margin-bottom: 7%;
+    font-family: Roboto_Bold;
+    font-size: 2.5em;
+}
+.text li {
+    font-size: 0.82em;
+    width: 125%;
+}
+.text li img {
+    height: 1.8em;
+}
+.text h4 {
+    color: red;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-top: 8%;
 }
 
-.images img {
-    height: 30%;
+
+.images div img {
+    position: relative;
+    height: 100%;
     width: 100%;
 }
 
