@@ -166,11 +166,30 @@ header {
     margin-left: 12%;
     margin-top: 10%;
 }
+.start div {
+    margin: 5%;
+}
+.start {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: inherit;
+    align-items: center;
+    gap: 10%;
 
+}
 
 .start img {
-    height: 5rem;
-    width: 5rem;
+    height: 1.3rem;
+    width: 1.3rem;
+}
+.start h4 {
+    font-family: Roboto_Bold;
+}
+.start p {
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: Roboto_Thin;
+    font-size: 0.8em
 
 }
 
