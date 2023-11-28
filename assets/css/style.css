@@ -2,6 +2,7 @@
     font-family: 'Roboto_Bold';
     src: url('../fonts/Roboto-Bold.ttf');
 }
+
 @font-face {
     font-family: 'Roboto_Regular';
     src: url('../fonts/Roboto-Regular.ttf');
@@ -11,6 +12,7 @@
     font-family: 'Roboto_Thin';
     src: url('../fonts/Roboto-Light.ttf');
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +46,7 @@ header {
     margin-top: 4%;
     margin-left: 10%;
 }
+
 .logo h6 {
     font-weight: bolder;
     font-size: 0.6rem;
@@ -58,6 +61,7 @@ header {
     top: 0;
     right: 0;
 }
+
 .bild2 {
     width: 30%;
     z-index: 2;
@@ -69,20 +73,25 @@ header {
     animation-timing-function: ;
     animation-iteration-count: infinite;
 }
+
 .bild2 {
     animation-name: move;
 }
+
 @keyframes move {
     0% {
         transform: translate(0);
     }
+
     50% {
         transform: translateY(25%);
     }
+
     100% {
         transform: translate(0);
     }
 }
+
 .lila {
     position: absolute;
     width: 100%;
@@ -94,18 +103,22 @@ header {
     width: 39%;
     font-family: Roboto_Bold;
 }
+
 .text h1 {
     margin-bottom: 7%;
     font-family: Roboto_Bold;
     font-size: 2.5em;
 }
+
 .text li {
     font-size: 0.82em;
     width: 125%;
 }
+
 .text li img {
     height: 1.8em;
 }
+
 .text h4 {
     color: red;
     font-weight: bold;
@@ -125,6 +138,7 @@ header {
     justify-content: space-between;
     gap: 20%;
 }
+
 .idea h3 {
     font-size: 1.5em;
     font-weight: bold;
@@ -132,6 +146,7 @@ header {
     margin-left: 12%;
     margin-top: 10%;
 }
+
 .idea p {
     width: 73%;
     font-size: 0.7em;
@@ -211,6 +226,11 @@ header {
         font-weight: bold;
     }
 
+    .logo img {
+        height: 45px;
+        width: 45px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -223,4 +243,10 @@ header {
         font-size: 3rem;
         font-weight: bold;
     }
+
+    .logo img {
+        height: 55px;
+        width: 55px;
+    }
+
 }
