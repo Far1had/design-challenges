@@ -25,7 +25,7 @@
 header {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     height: 60vh;
     position: relative;
 }
@@ -99,15 +99,15 @@ header {
 
 .text {
     margin: 12%;
-    margin-left: 16%;
-    width: 39%;
+    margin-left: 8%;
+    width: 60%;
     font-family: Roboto_Bold;
 }
 
 .text h1 {
-    margin-bottom: 7%;
+    margin-bottom: 4%;
     font-family: Roboto_Bold;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .text li {
@@ -123,28 +123,29 @@ header {
     color: red;
     font-weight: bold;
     font-size: 0.7em;
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 
 .images div img {
-    position: relative;
     height: 100%;
     width: 100%;
 }
 
 .idea {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20%;
+    margin-top: 16%;
+    margin-left: 16%;
 }
 
 .idea h3 {
     font-size: 1.5em;
     font-weight: bold;
     width: 10rem;
-    margin-left: 12%;
-    margin-top: 10%;
+    margin-left: 8%;
+    margin-top: 8%;
 }
 
 .idea p {
