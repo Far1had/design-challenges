@@ -2,9 +2,163 @@
     font-family: roboto;
     src: url(../fonts/Roboto-Regular.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: roboto;
+    list-style: none;
+}
+
+.header-sec {
+    display: flex;
+    height: 60vh;
+    position: relative;
+
+}
+
+.logo img {
+    margin: 0;
+    height: 35px;
+    width: 35px;
+    position: fixed;
+}
+
+.logo h4 {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+
+.bild1 {
+    width: 50%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bild2 {
+    width: 50%;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    position: absolute;
+    
+}
+
+.lila {
+    position: absolute;
+    width: 100%;
+    margin-top: -6%;
+}
+
+.images img {
+    height: 30%;
+    width: 100%;
+}
+
+.idea {
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+}
+.idea h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 10rem;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+.idea p {
+    width: 73%;
+    font-size: 0.7em;
+    margin-top: 5%;
+}
+
+.idea img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.after h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 25rem;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+
+.start img {
+    height: 5rem;
+    width: 5rem;
+
+}
+
+.ready div img {
+    height: ;
+    width: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .u.... {
+        font-size: 0.6em;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    .w...... {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    html {
+        font-size: 18px;
+    }
+
+    ..... {
+        font-size: 3rem;
+        font-weight: bold;
+    }
 }
