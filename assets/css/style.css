@@ -19,7 +19,7 @@
     box-sizing: border-box;
     font-family: roboto;
     list-style: none;
-    font-family: Roboto_Regular;
+    font-family: 'Roboto_Regular';
 }
 
 header {
@@ -40,7 +40,7 @@ header {
 }
 
 .logo h4 {
-    font-family: Roboto_Bold;
+    font-family: 'Roboto_Bold';
     font-weight: bold;
     font-size: 1.1rem;
     margin-top: 4%;
@@ -101,12 +101,12 @@ header {
     margin: 12%;
     margin-left: 8%;
     width: 60%;
-    font-family: Roboto_Bold;
+    font-family: 'Roboto_Bold';
 }
 
 .text h1 {
     margin-bottom: 4%;
-    font-family: Roboto_Bold;
+    font-family: 'Roboto_Bold';
     font-size: 3.5em;
 }
 
@@ -160,6 +160,7 @@ header {
 }
 
 .after h3 {
+    font-family: 'Roboto_Bold';
     font-size: 1.5em;
     font-weight: bold;
     width: 25rem;
@@ -193,11 +194,32 @@ header {
 
 }
 
-.ready div img {
-    height: ;
-    width: ;
+.null-img img {
+    height: 18em;
+    width: 20em;
 }
+.ready1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+
+}
+.ready1 h3 {
+    font-family: 'Roboto_Bold';
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 25rem;
+    margin-top: 5%;
+}
+.ready1 p {
+    font-family: 'Roboto_Bold';
+    font-size: 0.52em;
+    width: 12rem;
+    margin-left: -15%;
+    margin-top: 5%;
+}
 footer {
     display: flex;
     flex-direction: column;
