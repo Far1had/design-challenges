@@ -1,21 +1,35 @@
 @font-face {
-    font-family: roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto_Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto_Regular';
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Roboto_Thin';
+    src: url('../fonts/Roboto-Light.ttf');
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: roboto;
     list-style: none;
+    font-family: Roboto_Regular;
 }
-
-.header-sec {
+body {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     height: 60vh;
     position: relative;
-
 }
 
 .logo img {
@@ -27,8 +41,17 @@
 
 .logo h4 {
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
+    margin-top: 4%;
+    margin-left: 6%;
 }
+.logo h6 {
+    font-weight: bolder;
+    font-size: 0.6rem;
+    margin-top: 0.2%;
+    margin-left: 6.6%;
+}
+
 
 
 .bild1 {
@@ -39,18 +62,25 @@
     right: 0;
 }
 .bild2 {
-    width: 50%;
+    width: 44%;
     z-index: 2;
     top: 0;
     right: 0;
     position: absolute;
+    margin-right: 3%;
     
 }
 
 .lila {
     position: absolute;
     width: 100%;
-    margin-top: -6%;
+    margin-top: -1%;
+}
+
+.text {
+    margin: 15%;
+    margin-left: 10%;
+    width: 29%;
 }
 
 .images img {
